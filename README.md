@@ -2,7 +2,7 @@
 
 **Authors:** The Event Horizon Telescope Collaboration et al.
 
-**Date:** ___
+**Date:** November, 2023
 
 **Primary Reference:** [The Event Horizon Telescope Collaboration, et al. 2023, ApJL, ___, L___ (M87 Paper IX)](https://doi.org/10.3847/2041-8213/______)
 
