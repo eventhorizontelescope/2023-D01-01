@@ -70,6 +70,12 @@ Datasets with self-calibration and zero baseline D-term calibration:
   - hops_data/April11/hops_lo_3601_M87+zbl-dtcal_selfcal.uvfits
   - hops_data/April11/hops_hi_3601_M87+zbl-dtcal_selfcal.uvfits
 
+**File Name Convention:**
+
+The data files are named in the following convention:
+
+    [Data-Release-Tag]_[Source]_[year]_[day-of-year]_[band]_[pipeline]_[stage].[format]
+
 **Station Code Table:**
 
 | UVFITS Code | Station Name                  | Location |
