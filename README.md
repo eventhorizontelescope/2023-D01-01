@@ -20,9 +20,22 @@ pipelines (HOPS and CASA).
 All datasets include absolute EVPA calibration from ALMA and
 parallactic angle rotation.
 
-For the HOPS calibrated data, we have also provided a second version
-of each data set with both zero-baseline-derived D-terms (covering
-ALMA, APEX, SMA, and JCMT) and Stokes I self-calibration applied.
+We provide two versions of the HOPS calibrated data.
+The base version ("*_hops_ALMArot.uvfits") has no D-term
+calibration applied.
+The second version ("*_hops_zbl-dtcal+selfcal") has
+zero-baseline-derived D-terms (covering ALMA, APEX, SMA, and JCMT)
+corrected, but the remaining stations are not corrected.
+In addition, this version has all visibility amplitudes and phases
+self-calibrated to fiducial images Stokes I images of M87 from the
+SMILI pipeline (EHTC+ Paper IV, 2019).
+Both versions of the HOPS data have had the relative R/L complex
+gains calibrated with a global, multi-source fit (Steel+ 2019).
+
+The CASA data has had all​ D-terms corrected to their reported
+values in EHTC+ Paper VII, 2021. It has not been self-calibrated.
+The R/L complex gains have been calibrated assuming the intrinsic
+Stokes V visibilities are zero. 
 
 **File Name Convention:**
 
